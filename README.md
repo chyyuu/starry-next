@@ -53,6 +53,7 @@ tar zxf riscv64-linux-musl-cross.tgz
 tar zxf x86_64-linux-musl-cross.tgz
 tar zxf loongarch64-linux-musl-cross.tgz
 
+
 # exec below command in bash OR add below info in ~/.bashrc
 export PATH=`pwd`/x86_64-linux-musl-cross/bin:`pwd`/aarch64-linux-musl-cross/bin:`pwd`/riscv64-linux-musl-cross/bin:`pwd`/loongarch64-linux-musl-cross/bin:$PATH
 ```
